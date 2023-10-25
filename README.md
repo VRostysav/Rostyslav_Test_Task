@@ -26,6 +26,9 @@ In this section, you will find all the necessary steps which should be done befo
 ### How to start the test execution
 1. In the IDE terminal run the command to run all tests ```pytest -m -v ```
 2. In case you don't want to see a warning in the console run the next command  ```pytest -m -v:no:warnings```
-3. IF you want to run some specific test case run the command with the appropriate Pytest mark ```pytest -m tcid```.
+3. IF you want to run some specific test case run the command with the appropriate Pytest mark ```pytest -m tcid12```.
    All Pytest marks can be found in  ```Test ``` directory in the project
 
+   
+### NOTE
+In case some test cases do not run from the first try, please rerun them
